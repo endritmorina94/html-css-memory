@@ -9,7 +9,6 @@
 /* COMMON */
 body{
   font-family: 'Nerko One', Helvetica, sans-serif;
-  height: 100%;
   background-color: lightblue;
 }
 
@@ -21,33 +20,22 @@ body{
 /* FINE COMMON */
 
 /* HEADER */
-header{
-  height: 13vh;
-}
-
-header h1{
+h1{
   font-size: 80px;
   color: white;
-  line-height: 13vh;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 }
 /* FINE HEADER */
 
 /* CONTENITORE DELLE CARTE */
-main{
-  height: 81vh;
-  width: 100%;
-}
-
 .row{
   width: 100%;
-  height: 27vh;
 }
 
 .card{
   display: inline-block;
   width: 12%;
-  height: 80%;
+  height: 21.5vh;
   margin: 20px 20px 20px 0;
   border-radius: 10px;
   background-image: url(../img/pattern.png);
@@ -93,7 +81,7 @@ main{
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 }
 
-/* AL PASSAGGIO DEL MOUSE... */
+/* AL PASSAGGIO DEL MOUSE... (HOVER SETTINGS) */
 
 /* Nascondo il pattern della carta */
 .card:hover{
@@ -116,10 +104,8 @@ main{
 
 /* FOOTER */
 footer{
-  width: 65%;
   color: black;
   font-size: 20px;
-  position: absolute;
-  bottom: 10px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 /* FINE FOOTER */
