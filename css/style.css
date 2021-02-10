@@ -1,12 +1,12 @@
-/* Reset */
+/* RESET */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-/* Fine Reset */
+/* FINE RESET */
 
-/* Common */
+/* COMMON */
 body{
   font-family: 'Nerko One', Helvetica, sans-serif;
   height: 100%;
@@ -18,9 +18,9 @@ body{
   margin: auto;
   text-align: center;
 }
-/* Fine Common */
+/* FINE COMMON */
 
-/* Header */
+/* HEADER */
 header{
   height: 100px;
 }
@@ -31,10 +31,10 @@ header h1{
   line-height: 100px;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 }
-/* Fine Header */
+/* FINE HEADER */
 
-/* Contenitore delle carte */
-.card-container{
+/* CONTENITORE DELLE CARTE */
+main{
   height: 600px;
   width: 100%;
 }
@@ -112,5 +112,14 @@ header h1{
 }
 
 /* FINE HOVER SETTINGS */
+/* FINE CONTENITORE DELLE CARTE */
 
-/* Fine contenitore delle carte */
+/* FOOTER */
+footer{
+  width: 65%;
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  bottom: 10px;
+}
+/* FINE FOOTER */
