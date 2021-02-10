@@ -1,0 +1,15 @@
+/* Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Fine Reset */
+
+/* Common */
+body{
+  font-family: 'Nerko One', Helvetica, sans-serif;
+  height: 100vh;
+  background-color: lightblue;
+}
+/* Fine Common */
