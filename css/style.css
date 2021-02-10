@@ -9,7 +9,56 @@
 /* Common */
 body{
   font-family: 'Nerko One', Helvetica, sans-serif;
-  height: 100vh;
+  height: 100%;
   background-color: lightblue;
 }
+
+.main-container{
+  width: 65%;
+  margin: auto;
+  text-align: center;
+  /* TEST */
+  background-color: purple;
+}
 /* Fine Common */
+
+/* Header */
+header{
+  height: 13%;
+  background-color: red;
+}
+header h1{
+  font-size: 80px;
+  color: white;
+  line-height: 13vh;
+}
+/* Fine Header */
+
+/* Contenitore delle carte */
+.card-container{
+
+  height: 600px;
+  width: 100%;
+  background-color: green;
+}
+
+.row{
+  width: 100%;
+  height: 200px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+.card{
+  display: inline-block;
+  width: 15%;
+  height: 80%;
+  background-color: orange;
+  margin: 20px 20px 20px 0;
+}
+
+.card:last-child{
+  margin-right: 0;
+}
+
+/* Fine contenitore delle carte */
