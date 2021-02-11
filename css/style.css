@@ -28,21 +28,18 @@ h1{
 /* FINE HEADER */
 
 /* CONTENITORE DELLE CARTE */
-.row{
-  width: 100%;
-}
-
 .card{
   display: inline-block;
   width: 12%;
-  height: 21.5vh;
   margin: 20px 20px 20px 0;
+  padding: 20px 20px 40px 20px;
   border-radius: 10px;
-  background-image: url(../img/pattern.png);
+  background-image: url('../img/pattern.png');
   background-size: contain;
   position: relative;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.6);
   background-color: white;
+  overflow: hidden;
 }
 
 /* tolgo il margine all'ultima carta per evitare il discentramento della riga */
@@ -55,7 +52,7 @@ h1{
   background-image: none;
 }
 .active.card img{
-  display: block;
+  visibility: visible;
 }
 .active .card-name{
   display: block;
@@ -63,17 +60,14 @@ h1{
 
 /* Nascondo l'immagine ed il suo nome */
 .card img{
-  position: absolute;
-  left: 0;
-  top: 10px;
   width: 100%;
-  display: none;
-  height: 70%;
+  visibility: hidden;
 }
 
 .card-name{
   width: 100%;
   position: absolute;
+  left: 0;
   bottom: 10px;
   display: none;
   color: deeppink;
@@ -91,7 +85,7 @@ h1{
 
 /* Mostro l'immagine ed il suo nome con colore diverso */
 .card:hover img{
-  display: block;
+  visibility: visible;
 }
 
 .card:hover .card-name{
